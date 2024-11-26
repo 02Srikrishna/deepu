@@ -1,0 +1,29 @@
+spring with out security ::::
+
+import org.springframework.web.bind.annotation.GetMapping; 
+import org.springframework.web.bind.annotation.RestController; 
+@RestController public class 
+Controler { 
+ 
+ @GetMapping("/hello") 
+public String sayHello() {
+ return "hello everyone "; 
+ } 
+}
+
+spring with security :::::
+
+ import org.springframework.web.bind.annotation.GetMapping; 
+ import org.springframework.web.bind.annotation.RestController; 
+@RestController public class 
+Controler { 
+@GetMapping("/hello") 
+public String sayHello() { 
+return "hello everyone "; 
+ } 
+} 
+Filename : application.properties 
+spring.application.name=example 
+spring.security.user.name=Adithya 
+spring.security.user.password=******** server. 
+port=8090 
